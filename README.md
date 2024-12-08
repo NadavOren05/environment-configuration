@@ -1,4 +1,4 @@
-# environment-configuration
+# Environment Configuration
 ![alt text](wsl-cli-image.png)
 ## WSL
 WSL (short for Windows Subsystem for Linux) is a virtualization solution that allows you to easily install a Linux VM.  
