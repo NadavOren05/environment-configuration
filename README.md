@@ -1,2 +1,9 @@
 # environment-configuration
-This repo contain instructions for configuring WSL for working with AWS
+
+## WSL
+WSL (ראשי תיבות של: Windows Subsystem for Linux) פיתרון וירטואליזציה שמאפשר לכם להתקין בקלות Linux VM.
+WSL הוא ממש לא חובה ואתם יכולים להשתמש באיזה מערכת הפעלה שנוחה לכם.
+הקינפוג יכול להיות קצת מסובך ולכן צוות הדבאופס יצר בישבלכם כלי שיקנפג אותו עבורכם.
+הכלי יתקין עבורכם מספר רב של plugins, ספריות וכלים חשובים שיקלו לכם על החיים, ביניהם:
+K9S, Homebrew, docker, common-fate/granted ועוד...
+בנוסף הוא אוטומטית יקנפג עבורכם את הקבצים:
