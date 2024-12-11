@@ -52,7 +52,14 @@ cd environment-configuration
 chmod +x configure_my_wsl.sh
 ./configure_my_wsl.sh
 ```
+After it finished run the commamd:
+>[!NOTE]
+>When running the following command you need to be on the "environment-configuration" directory
+```
+cp .zshrc ~/.zshrc
+```
 ### Fourth step - customizing
+Before the fun part - open a new terminal
 Now comes the fun part—the part where you design your theme! Run the command in a new shell.
 ```
 p10k configure
