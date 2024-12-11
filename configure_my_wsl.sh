@@ -3,7 +3,7 @@ set -e
 WINDOWS_USERNAME=$(cmd.exe /C "echo %USERNAME%" 2>/dev/null | tr -d '\r')
 SETTINGS_PATH="/mnt/c/Users/$WINDOWS_USERNAME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
 if [ ! -d "$SETTINGS_PATH" ]; then
-  SETTINGS_PATH="/mnt/c/Users/nadav/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
+  SETTINGS_PATH="/mnt/c/Users/$WINDOWS_USERNAME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
 fi
 cp settings.json $SETTINGS_PATH
 

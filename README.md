@@ -48,7 +48,7 @@ gh auth login
 Run the following commands:
 ```
 git clone https://github.com/NadavOren05/environment-configuration.git
-cd digitalidf-conf-wsl
+cd environment-configuration
 chmod +x configure_my_wsl.sh
 ./configure_my_wsl.sh
 ```
@@ -60,7 +60,7 @@ p10k configure
 ### Updating permissions
 If your permissions have been updated for new environments, you can run the following code:
 ```
-cd digitalidf-conf-wsl
+cd environment-configuration
 chmod +x config-aws-kube.sh
 ./config-aws-kube.sh
 ```

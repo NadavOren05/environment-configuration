@@ -3,13 +3,13 @@ current_hour=$(date +"%H")
 
 # Determine the greeting based on the hour
 if [ "$current_hour" -ge 6 ] && [ "$current_hour" -lt 12 ]; then
-    greeting="Good  Morning  %USERNAME%!"
+    greeting="Good  Morning  $USERNAME!"
 elif [ "$current_hour" -ge 12 ] && [ "$current_hour" -lt 19 ]; then
-    greeting="Good  Afternoon  %USERNAME%!"
+    greeting="Good  Afternoon  $USERNAME!"
 elif [ "$current_hour" -ge 19 ] && [ "$current_hour" -lt 22 ]; then
-    greeting="Good  Evening  %USERNAME%!"
+    greeting="Good  Evening  $USERNAME!"
 else
-    greeting="Go  To  Sleep  %USERNAME%!"
+    greeting="Go  To  Sleep  $USERNAME!"
 fi
 
 # Output the greeting with figlet and lolcat
